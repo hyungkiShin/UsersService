@@ -1,0 +1,4 @@
+rootProject.name = 'UsersService'
+
+include ':core'
+project(':core').projectDir = new File(settingsDir, '../core')
